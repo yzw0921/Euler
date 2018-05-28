@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"strconv"
 )
 
 func main() {
@@ -17,9 +16,6 @@ func main() {
 	}
 	fmt.Println("a1: ", a1*11)
 	for i := 999; ; i-- {
-		a := int64(a1 * 11 * i)
-		b := strconv.
-
-			fmt.Println(b)
+		break
 	}
 }
